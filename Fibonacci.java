@@ -1,4 +1,4 @@
-class Factorial{
+class Fibonacci{
     public static void main(String[] args) {
         System.err.println(fun(5));
     }

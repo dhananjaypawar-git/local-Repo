@@ -8,10 +8,10 @@ class Fibonacci{
         }
         return fun(n-1)*fun(n-2);
     }
-
+    // Pattern Change 
     static void squarePattern(int n){
         for(int i=1;i<=n;i++){
-            for (int j = 1; j <=n; j++) {
+            for (int j = 1; j <=i; j++) {
                 System.out.print("* ");  // * * * * *
             }
             System.out.println(); // EmptyLinePrinting

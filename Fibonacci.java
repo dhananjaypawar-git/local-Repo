@@ -14,7 +14,7 @@ class Fibonacci{
             for (int j = 1; j <=i; j++) {
                 System.out.print("* ");  // * * * * *
             }
-            System.out.println(); // EmptyLinePrinting
+            System.out.println(); // EmptyLinePrinting // change in pattern
         }
     }
 }
